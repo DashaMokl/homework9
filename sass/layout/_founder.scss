@@ -1,0 +1,22 @@
+.founder {
+    background-image: url('../images/background2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    p {
+        padding-bottom: 50px;
+    }
+
+    a {
+        background-color: $primary-color;
+        padding: 20px 40px;
+        border-radius: 25px;
+        transition-duration: $duration;
+
+        &:hover {
+            transition-duration: $duration;
+            opacity: 0.8;
+        }
+    }
+}
+

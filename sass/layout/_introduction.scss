@@ -1,0 +1,23 @@
+.introduction {
+    div.container {
+        padding: 100px 0;
+        border-bottom: 1px solid #dfdfdf;
+        ul.the-arrows {
+            margin: 10px 0;
+            li {
+                margin-left: 5px;
+                padding: 8px 10px;
+                background-color: $color;
+                transition-duration: $duration;
+                &:hover {
+                    transition-duration: $duration;
+                    opacity: 0.8;
+                }
+            }
+
+            a {
+                color: $primary-color;
+            }
+        }
+    }
+}

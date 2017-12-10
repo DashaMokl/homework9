@@ -1,0 +1,60 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    nav, ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+}
+
+.introduction {
+    ul.singers {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul.the-arrows {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.concert {
+    ul {
+        display: inline-block;
+    }
+}
+
+.songs-and-inst {
+    div.popular-songs {
+        ul {
+            display: flex;
+        }
+    }
+}
+
+.downloads {
+    ul {
+        display: inline-block;
+    }
+}
+
+.subscription {
+    ul, li {
+        display: inline-block;
+    }
+}
+
+footer {
+    li {
+        display: inline-block;
+    }
+}

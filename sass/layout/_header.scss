@@ -1,0 +1,54 @@
+header {
+    background-color: $color;
+
+    ul {
+        margin: 45px 0 45px 10px;
+    }
+
+    ul.menu {
+        a {
+            padding: 0 10px;
+
+            &:hover {
+                transition-duration: $duration;
+                text-decoration: line-through;
+                opacity: 0.8;
+            }
+        }
+    }
+
+    ul.links {
+        a {
+            &:hover {
+                transition-duration: $duration;
+                opacity: 0.8;
+            }
+        }
+
+        li {
+            &:not(:nth-of-type(4)) {
+                padding-right: 20px;
+            }
+
+            &:nth-of-type(4) {
+                margin-right: 10px;
+            }
+        }
+
+        a.button {
+            padding: 20px 40px;
+            margin-right: 20px;
+            border-radius: 25px;
+            background-color: $primary-color;
+        }
+    }
+
+    a.logo {
+        margin: auto;
+
+        &:hover {
+            transition-duration: $duration;
+            opacity: 0.8;
+        }
+    }
+}

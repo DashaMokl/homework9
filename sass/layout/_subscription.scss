@@ -1,0 +1,24 @@
+.subscription {
+    padding: 100px 0;
+    ul {
+        border-bottom: 4px solid #999999;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    input {
+        border: none;
+    }
+
+    #newsletter {
+        padding-right: 100px;
+        margin-right: 100px;
+    }
+
+    #submit {
+
+        color: $color;
+    }
+}
