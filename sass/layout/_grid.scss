@@ -16,14 +16,46 @@ header {
 }
 
 .introduction {
-    ul.singers {
+    div.singers {
         display: flex;
         justify-content: space-between;
+    }
+
+    img {
+        display: block;
     }
 
     ul.the-arrows {
         display: flex;
         justify-content: flex-end;
+    }
+
+    div.three-singers {
+        position: relative;
+        overflow: hidden;
+        div.singers-contacts {
+            position: absolute;
+            bottom: -50px;
+            padding: 15px 120px 0 26px;
+            transition-duration: $duration;
+            &:hover {
+                bottom: 0;
+                transition-duration: $duration;
+            }
+
+            ul {
+                padding: 25px 0;
+            }
+
+            li {
+                display: inline-block;
+                padding-right: 15px;
+            }
+
+            span {
+                padding-left: 10px;
+            }
+        }
     }
 }
 
@@ -36,13 +68,13 @@ header {
 .songs-and-inst {
     div.popular-songs {
         ul {
-            display: flex;
+            display: inline-block;
         }
     }
 }
 
 .downloads {
-    ul {
+    li {
         display: inline-block;
     }
 }

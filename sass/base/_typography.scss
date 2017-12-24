@@ -70,6 +70,33 @@ section.main {
     }
 }
 
+section.introduction {
+    div.three-singers {
+        h5, p, a, span {
+            color: $primary-color;
+        }
+
+        h5 {
+            font-family: $main-font;
+            font-size: 22px;
+        }
+
+        p {
+            font-family: $primary-font;
+            font-size: 16px;
+        }
+
+        i {
+            font-size: 24px;
+        }
+
+        span {
+            font-family: $secondary-font;
+            font-size: 14px;
+        }
+    }
+}
+
 section.concert {
     h5 {
         font-family: $main-font;
@@ -132,19 +159,6 @@ section.downloads {
         font-family: $primary-font;
         font-size: 22px;
         color: $primary-color;
-    }
-
-    a {
-        font-family: 'PT Sans', sans-serif;
-        color: $primary-color;
-    }
-
-    li.download-app, li.get-app {
-        font-size: 10px;
-    }
-
-    li.apple, li.gplay {
-        font-size: 18px;
     }
 }
 

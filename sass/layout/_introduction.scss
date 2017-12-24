@@ -5,9 +5,7 @@
         ul.the-arrows {
             margin: 10px 0;
             li {
-                margin-left: 5px;
-                padding: 8px 10px;
-                background-color: $color;
+                margin: 0 0 10px 5px;
                 transition-duration: $duration;
                 &:hover {
                     transition-duration: $duration;
@@ -17,6 +15,23 @@
 
             a {
                 color: $primary-color;
+                padding: 8px 10px;
+                background-color: $color;
+            }
+        }
+    }
+
+    div.singers-contacts {
+        background-color: $color;
+        h5 {
+            padding-bottom: 5px;
+        }
+
+        a {
+            transition-duration: $duration;
+            &:hover {
+                transition-duration: $duration;
+                opacity: 0.8;
             }
         }
     }

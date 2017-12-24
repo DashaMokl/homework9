@@ -13,39 +13,12 @@ section.downloads {
             padding-bottom: 40px;
         }
     }
-}
 
-section.downloads {
-    ul {
-        background-color: #050708;
-        border-radius: 10px;
+    li {
         transition-duration: $duration;
-        &:nth-of-type(1) {
-            padding: 10px 20px 10px 20px;
-        }
-
-        &:nth-of-type(2) {
-            padding: 12px 20px 10px 0;
-        }
-
         &:hover {
             transition-duration: $duration;
             opacity: 0.8;
         }
-
-        li.apple {
-            padding-right: 20px;
-            &:before {
-                content: url('../images/iconapple.png');
-            }
-        }
-
-        li.gplay {
-            padding-left: 20px;
-            &:before {
-                content: url('../images/iconplay.png');
-            }
-        }
     }
 }
-
