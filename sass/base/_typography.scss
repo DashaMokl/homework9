@@ -1,7 +1,12 @@
-span {
+pre.subhead {
     color: $color;
     font-size: 32px;
     font-family: $italic-font;
+    text-transform: none;
+    font-weight: 200;
+    white-space: normal;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 h3 {
@@ -55,11 +60,12 @@ h1 {
 }
 
 section.main {
-    h2 {
+    pre {
         font-family: $italic-font;
         font-weight: 200;
-        font-size: 65px;
+        font-size: 55px;
         color: $secondary-color;
+        text-transform: none;
     }
 
     a {

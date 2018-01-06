@@ -4,7 +4,7 @@ section.concert {
     }
 
     img {
-        margin: 47px 80px 0 0;
+        margin: 38px 80px 0 0;
     }
 
     h5 {
@@ -39,7 +39,8 @@ section.concert {
 
 aside.video.clearfix {
     float: right;
-    &:before {
+    width: 30%;
+    &:after {
         content: "";
         clear: both;
     }
@@ -48,23 +49,28 @@ aside.video.clearfix {
         margin-bottom: 5px;
     }
 
-    a {
-        color: $primary-color;
-        background-color: $color;
-        padding: 6px 10px;
-        margin-left: 5px;
-        text-align: end;
-        float: right;
-        transition-duration: $duration;
-        &:hover {
+    div.the-arrows {
+        text-align: right;
+        margin: 20px 0;
+        li {
+            margin: 0 0 10px 5px;
             transition-duration: $duration;
-            opacity: 0.8;
+            &:hover {
+                transition-duration: $duration;
+                opacity: 0.8;
+            }
+        }
+
+        a {
+            color: $primary-color;
+            padding: 8px 10px;
+            background-color: $color;
         }
     }
 
     iframe {
         height: 290px;
         width: 360px;
-        margin-top: 10px;
+
     }
 }

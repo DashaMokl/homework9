@@ -2,8 +2,9 @@
     div.container {
         padding: 100px 0;
         border-bottom: 1px solid #dfdfdf;
-        ul.the-arrows {
-            margin: 10px 0;
+        div.the-arrows {
+            text-align: right;
+            margin: 20px 0;
             li {
                 margin: 0 0 10px 5px;
                 transition-duration: $duration;
